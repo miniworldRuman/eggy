@@ -3,14 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "hexo server --open",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server"
   },
   "hexo": {
-    "version": "7.3.0"
+    "version": ""
   },
   "dependencies": {
     "hexo": "^7.3.0",
