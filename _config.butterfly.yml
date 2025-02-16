@@ -91,7 +91,7 @@ footer_img: false
 
 # Website Background
 # Can set it to color or image url
-background:
+background: img/1.jpg
 
 cover:
   # Disable the cover or not
@@ -1027,7 +1027,7 @@ css_prefix: true
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+      - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
   bottom:
     # - <script src="xxxx"></script>
 
