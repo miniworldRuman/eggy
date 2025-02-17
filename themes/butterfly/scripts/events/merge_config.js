@@ -144,7 +144,7 @@ hexo.extend.filter.register('before_generate', () => {
           enable: true,
           icon: 'fab fa-github',
           text: 'Follow Me',
-          link: 'https://github.com/xxxxxx'
+          link: 'https://github.com/miniworldRuman'
         }
       },
       card_announcement: {
