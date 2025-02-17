@@ -1,0 +1,39 @@
+if hexo-config('css_prefix')
+  @import 'nib'
+
+@import '_third-party/normalize.min.css'
+// project
+@import 'var'
+@import '_global/*'
+@import '_highlight/highlight'
+@import '_page/*'
+@import '_layout/*'
+@import '_tags/*'
+@import '_mode/*'
+
+// search
+@import '_search/index'
+
+
+body {
+  background-color:rgb(253, 252, 252);
+}
+body {
+  background-image: url('https://img.picui.cn/free/2025/02/17/67b28752856a1.jpg'); // 图片路径
+  background-size: cover; // 让图片覆盖整个页面
+  background-repeat: no-repeat; // 防止图片重复
+  background-position: center; // 图片居中
+  background-attachment: fixed; // 固定背景，滚动时背景不动
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5); // 半透明白色遮罩
+  z-index: -1;
+}
+
+
